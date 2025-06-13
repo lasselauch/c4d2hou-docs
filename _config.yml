@@ -1,0 +1,14 @@
+title: C4D2HOU
+description: A plugin to improve the workflow between C4D and Houdini
+theme: just-the-docs
+
+url: https://aescripts.com/authors/f-l/lasse-lauch
+
+aux_links:
+  aescripts.com: https://aescripts.com/authors/f-l/lasse-lauch
+
+aux_links_new_tab: true
+
+color_scheme: foo
+nav_enabled: true
+search_enabled: true
