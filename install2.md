@@ -5,10 +5,9 @@ nav_order: 1
 ---
 
 # 📦 Installation
-{: .fs-9 }
 
 Complete installation guide for c4d2hou - the professional Cinema 4D to Houdini bridge.
-{: .fs-6 .fw-300 }
+{: .fs-5 .fw-300 }
 
 [Get c4d2hou](https://aescripts.com/c4d2hou/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View on GitHub](https://github.com/lasselauch/c4d2hou-docs){: .btn .fs-5 .mb-4 .mb-md-0 }

@@ -1,12 +1,17 @@
 title: c4d2hou
 description: The documentation of the best C4D to Houdini Bridge
 
-# Theme configuration
+# Theme configuration - works both locally and on GitHub Pages
+theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs@v0.8.2
 
 # Site configuration
 url: https://lasselauch.github.io
 baseurl: "/c4d2hou-docs"
+
+# For local development, override the baseurl
+# You can also run: bundle exec jekyll serve --baseurl ""
+local_baseurl: ""
 
 # Navigation
 aux_links:
@@ -38,4 +43,4 @@ exclude:
   - node_modules
   - vendor
   - .sass-cache
-  - .jekyll-cache 
+  - .jekyll-cache
