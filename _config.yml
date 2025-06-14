@@ -1,31 +1,24 @@
 title: c4d2hou
 description: The documentation of the best C4D to Houdini Bridge
 
-# Theme configuration - works both locally and on GitHub Pages
-theme: just-the-docs
-remote_theme: just-the-docs/just-the-docs@v0.8.2
+# Use GitHub Pages supported theme
+theme: cayman
 
 # Site configuration
 url: https://lasselauch.github.io
 baseurl: "/c4d2hou-docs"
 
-# For local development, override the baseurl
-# You can also run: bundle exec jekyll serve --baseurl ""
-local_baseurl: ""
+# Repository info
+github:
+  repository_url: https://github.com/lasselauch/c4d2hou-docs
+  is_project_page: true
 
-# Navigation
-aux_links:
-  "aescripts.com": https://aescripts.com/authors/f-l/lasse-lauch
-  "View on GitHub": https://github.com/lasselauch/c4d2hou-docs
+# Navigation links
+navigation_links:
+  aescripts: https://aescripts.com/authors/f-l/lasse-lauch
+  github: https://github.com/lasselauch/c4d2hou-docs
 
-aux_links_new_tab: true
-
-# Theme settings
-color_scheme: light
-search_enabled: true
-nav_enabled: true
-
-# Enable plugins
+# Enable plugins (GitHub Pages supported only)
 plugins:
   - jekyll-feed
   - jekyll-sitemap

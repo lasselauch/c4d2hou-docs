@@ -8,4 +8,4 @@ nav_order: 0
 [How to Install]({{site.baseurl}}/install){: .btn .btn-orange}
 
 
-![](../../assets/images/small-image.jpg)
+<!-- ![](../../assets/images/small-image.jpg) -->
