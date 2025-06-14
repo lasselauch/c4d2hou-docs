@@ -1,11 +1,10 @@
 ---
-title: Welcome
+title: 👋 Welcome
 layout: default
 nav_order: 0
 ---
+![](../../assets/img/header.png)
 
-[Get Started]({{site.baseurl}}/overview){: .btn .btn-blue .mr-2.5}
-[How to Install]({{site.baseurl}}/install){: .btn .btn-orange}
+[How to Install]({{site.baseurl}}/install){: .btn .btn-orange .mr-2.5}
+[🎯 Get Started]({{site.baseurl}}/overview){: .btn }
 
-
-<!-- ![](../../assets/images/small-image.jpg) -->

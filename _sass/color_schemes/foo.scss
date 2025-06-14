@@ -1,4 +1,4 @@
-$link-color: $blue-000;
+$link-color: $blue-200;
 
 $orange-600: #FB8C00;
 
@@ -23,12 +23,12 @@ $blue-900: #0038FF;
 // Blue button (Cinema4D theme)
 .btn-blue {
 //   color: $white !important;
-  background-color: $blue-900 !important;
+  background-color: $blue-200 !important;
   background-image: linear-gradient(352.52deg, $blue-900 0%, $blue-800 100%);
 
   
   &:active {
-    background-color: darken($blue-800, 10%) !important;
+    background-color: darken($blue-200, 10%) !important;
     background-image: none !important;
   }
 }

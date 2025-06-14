@@ -1,10 +1,10 @@
 ---
-title: 🔍  Get Started
+title: 🎯 Get Started
 layout: default
 nav_order: 4
 ---
 
-# 🔍 Get Started
+# 🎯 Get Started
 
 Seamlessly bridge your Cinema 4D to Houdini workflow
 {: .fs-5 .fw-300 }

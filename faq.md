@@ -1,10 +1,10 @@
 ---
-title: ❓ FAQ
+title: FAQ
 layout: default
 nav_order: 101
 ---
 
-# ❓ FAQ
+# FAQ
 
 ### Troubleshooting:
 
