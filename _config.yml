@@ -1,14 +1,41 @@
-title: C4D2HOU
-description: A plugin to improve the workflow between C4D and Houdini
-theme: just-the-docs
+title: c4d2hou
+description: The documentation of the best C4D to Houdini Bridge
 
-url: https://lasselauch.github.io/c4d2hou-docs
+# Theme configuration
+remote_theme: just-the-docs/just-the-docs@v0.8.2
 
+# Site configuration
+url: https://lasselauch.github.io
+baseurl: "/c4d2hou-docs"
+
+# Navigation
 aux_links:
-  aescripts.com: https://aescripts.com/authors/f-l/lasse-lauch
+  "aescripts.com": https://aescripts.com/authors/f-l/lasse-lauch
+  "View on GitHub": https://github.com/lasselauch/c4d2hou-docs
 
 aux_links_new_tab: true
 
-color_scheme: foo
-nav_enabled: true
+# Theme settings
+color_scheme: light
 search_enabled: true
+nav_enabled: true
+
+# Enable plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache 
