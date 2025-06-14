@@ -16,7 +16,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Theme settings
-color_scheme: light
+color_scheme: foo
 search_enabled: true
 nav_enabled: true
 
