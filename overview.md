@@ -9,6 +9,8 @@ nav_order: 4
 Seamlessly bridge your Cinema 4D to Houdini workflow
 {: .fs-5 .fw-300 }
 
+![](assets/img/MacroDOF_01_16x9.png)
+
 ---
 
 <div class="main-actions">
@@ -40,7 +42,8 @@ Seamlessly bridge your Cinema 4D to Houdini workflow
       <strong>Open Folder</strong>
     </div>
   </div>
-  
+
+
   <div class="action-explanation" id="explanation-container">
     <div class="explanation active" data-explanation="connect">
       <h4>Connect to Houdini</h4>
@@ -64,6 +67,7 @@ Seamlessly bridge your Cinema 4D to Houdini workflow
     </div>
   </div>
 </div>
+
 
 # Current Session:
 
