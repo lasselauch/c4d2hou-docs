@@ -11,7 +11,7 @@ baseurl: "/c4d2hou-docs"
 # Navigation
 aux_links:
   "aescripts.com": https://aescripts.com/c4d2hou
-  "Submit Issue": https://github.com/lasselauch/c4d2hou-docs/issues
+  # "Submit Issue": https://github.com/lasselauch/c4d2hou-docs/issues
 
 aux_links_new_tab: true
 
