@@ -30,6 +30,8 @@ nav_order: 100
 - **First beta-tester version, yeah! :)**
 - [Added] aescripts Python License Framework
 
+[Back to top](#top){: .btn .float-right}
+
 <div class="footer-info">
   <span class="connection-status">Built with 💙🧡 in Hamburg, Germany</span>
 </div>

@@ -101,6 +101,8 @@ Sets the frame range for animated exports. **Static** exports only the current f
 
 Adjusts the scale factor between Cinema 4D and Houdini coordinate systems. Default is 0.01, which converts Cinema 4D's centimeter units to Houdini's meter units. Increase for larger objects, decrease for smaller precision work.
 
+[Back to top](#top){: .btn .float-right}
+
 <div class="footer-info">
   <span class="connection-status">Built with 💙🧡 in Hamburg, Germany</span>
 </div>

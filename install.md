@@ -16,9 +16,7 @@ Complete installation guide for C4D2HOU - the professional Cinema 4D to Houdini 
 [![Alt text for broken image link](assets/img/aescripts_manager.png)](https://aescripts.com/learn/aescripts-aeplugins-manager-app/){:target="_blank"}
 
 
-The easiest way to install C4D2HOU is through the 
-<!-- {: .label .label-blue }  -->
-**aescripts + aeplugins Manager**:
+The easiest way to install C4D2HOU is through the **aescripts + aeplugins Manager**:
 
 1. **Download** the manager from [aescripts.com](https://aescripts.com/learn/aescripts-aeplugins-manager-app/) (or click on the image above.)
 2. **Search** for "c4d2hou" in the manager
@@ -47,9 +45,9 @@ For users who prefer manual control over their installation process.
 c4d2hou_v{x.x.x}.zip
 ├── 📂 c4d2hou                    ← Copy this folder!
 │   ├── 📂 res
-│   ├── c4d2hou.pyp
-│   ├── _package_installer.sh     (macOS/Linux installer)
-│   └── _package_installer.bat    (Windows installer)
+│   ├── _package_installer_mac.sh     (macOS/Linux installer)
+│   ├── _package_installer_win.bat    (Windows installer)
+│   └── c4d2hou.pypv
 └── CHANGELOG.txt
 └── README.txt
 ```
@@ -63,19 +61,20 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 
 ### Step 2: Install Houdini Package
 
-### Option A: Use Installer Scripts ✨
-
+<details markdown="block">
+  <summary>
+    Option A: Use Installer Scripts ✨
+  </summary>
 1. Navigate to the Cinema 4D plugins directory and within the c4d2hou plugin folder
 2. **Drag the _package_installer_** into your terminal or cmd prompt and follow the instructions
   ![](assets/img/package_installer.gif)
 3. Select which Houdini version(s) to install for
 4. Done! 🎉
-
-### Option B: Manual JSON Installation
+</details>
 
 <details markdown="block">
   <summary>
-    Advanced Setup
+    Option B: Manual JSON Installation
   </summary>
 
 1. Create `c4d2hou.json`:
@@ -91,11 +90,13 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 }
 ```
 
-2. Replace `__path_to_c4d_plugins_folder__` with your actual path
+2. Replace `__path_to_c4d_plugins_folder__` with your actual path to your Cinema4D plugins directory
 
 3. Save to:
-   - **Windows**: `C:/Users/<username>/Documents/houdini<version>/packages/`
-   - **macOS**: `/Users/<username>/Library/Preferences/houdini/<version>/packages/`
+  ```
+  C:/Users/<username>/Documents/houdini<version>/packages/              (Windows)
+  /Users/<username>/Library/Preferences/houdini/<version>/packages/     (macOS)
+  ```
 
 </details>
 
@@ -103,32 +104,11 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 
 ## Step 3: Start Using C4D2HOU
 
-1. **Start** Cinema 4D
-2. **Start** Houdini
+1. **Start Cinema 4D**
+2. **Start Houdini**
 3. In Cinema 4D: **Extensions** → **c4d2hou**
 4. **Click** [Connect]({{site.baseurl}}/overview)
 5. **Enjoy!** 🚀
-
----
-
-## Troubleshooting
-
-### Cinema 4D Issues
-- Verify `c4d2hou` folder location
-- Check Cinema 4D version (2023+)
-- Restart Cinema 4D
-
-### Houdini Issues
-- Run installer script again
-- Check `c4d2hou.json` exists in packages folder
-- Verify path in JSON file
-- Restart Houdini
-
-### Connection Issues
-- Both apps must be running
-- Start Houdini AFTER package installation
-- Check logs: **c4d2hou** → **Info** → **Open Temporary Folder...**
-- Before getting in contact with issues: **c4d2hou** → **Info** → **Create *.debug files...**
 
 ---
 
@@ -140,13 +120,14 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 | Houdini | 19.0 or newer |
 | OS | Windows 10/11, macOS 10.14+, Linux |
 
----
-
 ## Need Help?
 
-[Create Issue](https://github.com/lasselauch/c4d2hou-docs/issues){: .btn .btn-blue .mr-2 }
-[Support](mailto:support@aescripts.com){: .btn .mr-2 }
+[FAQ]({{site.baseurl}}/faq){: .btn .btn-orange .mr-2 }
+[Support](mailto:support@aescripts.com){: .btn }
 [Forums](https://aescripts.com/forums/){: .btn }
+[Create Issue](https://github.com/lasselauch/c4d2hou-docs/issues){: .btn .btn-purple .float-right}
+
+[Back to top](#top){: .btn .float-right}
 
 <div class="footer-info">
   <span class="connection-status">Built with 💙🧡 in Hamburg, Germany</span>

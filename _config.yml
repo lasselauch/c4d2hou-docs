@@ -22,6 +22,7 @@ aux_links_new_tab: true
 color_scheme: foo
 search_enabled: true
 nav_enabled: true
+
 back_to_top: true
 back_to_top_text: "Back to top"
 
