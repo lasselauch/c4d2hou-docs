@@ -112,20 +112,22 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 
 ---
 
+## Need Help?
+
+[FAQ]({{site.baseurl}}/faq){: .btn .btn-orange .mr-2 }
+[Support](mailto:support@aescripts.com){: .btn }
+[Forums](https://aescripts.com/forums/){: .btn }
+[Submit Issue](https://github.com/lasselauch/c4d2hou-docs/issues){: .btn .btn-blue .float-right}
+
+---
+
 ## System Requirements
 
 | Component | Requirement |
 |:----------|:------------|
 | Cinema 4D | 2023 or newer |
 | Houdini | 19.0 or newer |
-| OS | Windows 10/11, macOS 10.14+, Linux |
-
-## Need Help?
-
-[FAQ]({{site.baseurl}}/faq){: .btn .btn-orange .mr-2 }
-[Support](mailto:support@aescripts.com){: .btn }
-[Forums](https://aescripts.com/forums/){: .btn }
-[Create Issue](https://github.com/lasselauch/c4d2hou-docs/issues){: .btn .btn-purple .float-right}
+| OS | Windows 10/11, macOS 10.14+ |
 
 [Back to top](#top){: .btn .float-right}
 

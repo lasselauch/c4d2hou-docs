@@ -1,12 +1,15 @@
-$link-color: $blue-200;
 
 $orange-600: #FB8C00;
 
 $orange-800: #FFAE00;
 $orange-900: #FF3600;
 
+$blue-400: #0066FF;
 $blue-800: #0094FF;
 $blue-900: #0038FF;
+
+$link-color: $blue-400;
+
 
 // Orange button (Houdini theme)
 .btn-orange {
@@ -20,15 +23,24 @@ $blue-900: #0038FF;
   }
 }
 
-// Blue button (Cinema4D theme)
-.btn-blue {
-//   color: $white !important;
-  background-color: $blue-200 !important;
-  background-image: linear-gradient(352.52deg, $blue-900 0%, $blue-800 100%);
-
+.btn-orange2 {
+  color: $orange-600 !important;
+  background-color: $white !important;
   
   &:active {
-    background-color: darken($blue-200, 10%) !important;
+    background-color: overlay($orange-800, 10%) !important;
+    background-image: none !important;
+  }
+}
+
+// Blue button (Cinema4D theme)
+.btn-blue {
+  // color: $white !important;
+  background-color: $blue-400 !important;
+  background-image: linear-gradient(352.52deg, $blue-900 40%, $blue-400 100%);
+
+  &:active {
+    background-color: darken($blue-400, 10%) !important;
     background-image: none !important;
   }
 }
