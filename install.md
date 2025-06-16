@@ -23,10 +23,17 @@ The easiest way to install C4D2HOU is through the
 1. **Download** the manager from [aescripts.com](https://aescripts.com/learn/aescripts-aeplugins-manager-app/) (or click on the image above.)
 2. **Search** for "c4d2hou" in the manager
 3. **Click Install** and follow the prompts, this will install the Cinema4D plugin
-4. **Open Cinema 4D plugins directory** and within the `c4d2hou` folder **Drag the _package_installer_** into your terminal or cmd prompt
+
+---
+
+## After C4D Installation
+
+1. Click on the installed versions and open **Cinema 4D plugins directory**
+  ![](assets/img/aescripts_manager_after_install.png)
+2. Within the `c4d2hou` folder **Drag the _package_installer_** into your `terminal.app` or `cmd.exe`
   ![](assets/img/package_installer.gif)
-5. Select which Houdini version(s) to install
-6. Done!🎉 **Start Cinema4D and enjoy!**✨
+3. Select which Houdini version(s) to install
+4. Done!🎉 **Start Cinema4D and Houdini and enjoy!**✨
 
 ---
 
