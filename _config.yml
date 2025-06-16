@@ -15,8 +15,8 @@ aux_links:
 
 aux_links_new_tab: true
 
-nav_external_links:
-  opens_in_new_tab: true
+# nav_external_links:
+  # opens_in_new_tab: true
 
 # Theme settings
 color_scheme: foo

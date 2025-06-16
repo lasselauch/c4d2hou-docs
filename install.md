@@ -129,7 +129,7 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 | Component | Requirement |
 |:----------|:------------|
 | Cinema 4D | 2023 or newer |
-| Houdini | 18.5 or newer |
+| Houdini | 19.0 or newer |
 | OS | Windows 10/11, macOS 10.14+, Linux |
 
 ---
