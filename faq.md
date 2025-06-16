@@ -25,3 +25,9 @@ nav_order: 101
 - **General tips:**
   - Keep your software updated to the latest versions for better compatibility.
   - Refer to the official documentation or support forums for additional help.
+
+<div class="footer-info">
+  <span class="connection-status">Built with 💙🧡 in Hamburg, Germany</span>
+</div>
+
+<link rel="stylesheet" href="{{ '/assets/css/general.css' | relative_url }}">

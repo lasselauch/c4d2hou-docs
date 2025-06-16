@@ -1,4 +1,4 @@
-title: c4d2hou
+title: C4D2HOU
 description: The documentation of the best C4D to Houdini Bridge
 
 # Use remote_theme for both local and GitHub Pages
@@ -15,10 +15,15 @@ aux_links:
 
 aux_links_new_tab: true
 
+nav_external_links:
+  opens_in_new_tab: true
+
 # Theme settings
 color_scheme: foo
 search_enabled: true
 nav_enabled: true
+back_to_top: true
+back_to_top_text: "Back to top"
 
 # Enable plugins
 plugins:

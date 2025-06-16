@@ -1,4 +1,4 @@
-// c4d2hou Settings Interactive Functionality
+// C4D2HOU Settings Interactive Functionality
 
 document.addEventListener('DOMContentLoaded', function() {
     // Action buttons functionality

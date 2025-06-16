@@ -29,3 +29,9 @@ nav_order: 100
 ### version 0.4.0
 - **First beta-tester version, yeah! :)**
 - [Added] aescripts Python License Framework
+
+<div class="footer-info">
+  <span class="connection-status">Built with 💙🧡 in Hamburg, Germany</span>
+</div>
+
+<link rel="stylesheet" href="{{ '/assets/css/general.css' | relative_url }}">

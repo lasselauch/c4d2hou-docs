@@ -1,7 +1,7 @@
 ---
 title: 🎯 Get Started
 layout: default
-nav_order: 4
+nav_order: 2
 ---
 
 # 🎯 Get Started
@@ -102,8 +102,9 @@ Sets the frame range for animated exports. **Static** exports only the current f
 Adjusts the scale factor between Cinema 4D and Houdini coordinate systems. Default is 0.01, which converts Cinema 4D's centimeter units to Houdini's meter units. Increase for larger objects, decrease for smaller precision work.
 
 <div class="footer-info">
-  <span class="connection-status">Saved: "untitled.hip" in Hamburg, Germany – with 🧡</span>
+  <span class="connection-status">Built with 💙🧡 in Hamburg, Germany</span>
 </div>
 
+<link rel="stylesheet" href="{{ '/assets/css/general.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/overview.css' | relative_url }}">
 <script src="{{ '/assets/js/overview.js' | relative_url }}" defer></script>

@@ -6,18 +6,21 @@ nav_order: 1
 
 # 📦 How to Install
 
-Complete installation guide for c4d2hou - the professional Cinema 4D to Houdini bridge.
+Complete installation guide for C4D2HOU - the professional Cinema 4D to Houdini bridge.
 {: .fs-5 .fw-300 }
 ---
 <!-- [Download: aescripts.com](https://aescripts.com/c4d2hou){: .btn .btn-orange } -->
 
 ## Method 1: aescripts Manager (Recommended)
 
-The easiest way to install c4d2hou is through the 
+[![Alt text for broken image link](assets/img/aescripts_manager.png)](https://aescripts.com/learn/aescripts-aeplugins-manager-app/){:target="_blank"}
+
+
+The easiest way to install C4D2HOU is through the 
 <!-- {: .label .label-blue }  -->
 **aescripts + aeplugins Manager**:
 
-1. **Download** the manager from [aescripts.com](https://aescripts.com/learn/aescripts-aeplugins-manager-app/)
+1. **Download** the manager from [aescripts.com](https://aescripts.com/learn/aescripts-aeplugins-manager-app/) (click on the image above.)
 2. **Search** for "c4d2hou" in the manager
 3. **Click Install** and follow the prompts
 4. The manager handles everything automatically! ✨
@@ -110,7 +113,7 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 
 ---
 
-## Step 3: Start Using c4d2hou
+## Step 3: Start Using C4D2HOU
 
 1. **Start** Cinema 4D
 2. **Start** Houdini
@@ -124,7 +127,7 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 
 ### Cinema 4D Issues
 - Verify `c4d2hou` folder location
-- Check Cinema 4D version (R20+)
+- Check Cinema 4D version (2023+)
 - Restart Cinema 4D
 
 ### Houdini Issues
@@ -144,7 +147,7 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 
 | Component | Requirement |
 |:----------|:------------|
-| Cinema 4D | R20 or newer |
+| Cinema 4D | 2023 or newer |
 | Houdini | 18.5 or newer |
 | OS | Windows 10/11, macOS 10.14+, Linux |
 
@@ -155,3 +158,9 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 [Create Issue](https://github.com/lasselauch/c4d2hou-docs/issues){: .btn .btn-blue .mr-2 }
 [Support](mailto:support@aescripts.com){: .btn .mr-2 }
 [Forums](https://aescripts.com/forums/){: .btn }
+
+<div class="footer-info">
+  <span class="connection-status">Built with 💙🧡 in Hamburg, Germany</span>
+</div>
+
+<link rel="stylesheet" href="{{ '/assets/css/general.css' | relative_url }}">

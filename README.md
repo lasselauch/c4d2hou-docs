@@ -1,4 +1,4 @@
-# c4d2hou Documentation
+# C4D2HOU Documentation
 
 This repository contains the public documentation and Issue Tracker for c4d2hou - the best Cinema 4D to Houdini bridge.
 

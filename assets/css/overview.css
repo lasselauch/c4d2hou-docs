@@ -1,4 +1,4 @@
-/* c4d2hou Settings - Apple-inspired styling */
+/* C4D2HOU Settings - Apple-inspired styling */
 
 /* Main Actions Grid */
 .main-actions {
@@ -250,20 +250,6 @@
 
 .reset-button:active {
   transform: translateY(0);
-}
-
-/* Footer */
-.footer-info {
-  text-align: center;
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid #e5e5e5;
-}
-
-.connection-status {
-  color: #ff6600;
-  font-size: 0.875rem;
-  font-weight: 500;
 }
 
 /* Responsive adjustments */
