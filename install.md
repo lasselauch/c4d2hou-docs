@@ -20,12 +20,12 @@ The easiest way to install C4D2HOU is through the
 <!-- {: .label .label-blue }  -->
 **aescripts + aeplugins Manager**:
 
-1. **Download** the manager from [aescripts.com](https://aescripts.com/learn/aescripts-aeplugins-manager-app/) (click on the image above.)
+1. **Download** the manager from [aescripts.com](https://aescripts.com/learn/aescripts-aeplugins-manager-app/) (or click on the image above.)
 2. **Search** for "c4d2hou" in the manager
 3. **Click Install** and follow the prompts, this will install the Cinema4D plugin
-4. From there **Drag the _package_installer** into your terminal or cmd prompt
+4. **Open Cinema 4D plugins directory** and within the `c4d2hou` folder **Drag the _package_installer_** into your terminal or cmd prompt
   ![](assets/img/package_installer.gif)
-5. Select which Houdini version(s) to install for
+5. Select which Houdini version(s) to install
 6. Done!🎉 **Start Cinema4D and enjoy!**✨
 
 ---
@@ -43,10 +43,11 @@ c4d2hou_v{x.x.x}.zip
 │   ├── c4d2hou.pyp
 │   ├── _package_installer.sh     (macOS/Linux installer)
 │   └── _package_installer.bat    (Windows installer)
+└── CHANGELOG.txt
 └── README.txt
 ```
 
-Extract the zip and copy the `c4d2hou` folder to your Cinema 4D plugins directory: 
+**Extract the zip** and copy the `c4d2hou` folder to your Cinema 4D plugins directory: 
 
 ```
 C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
@@ -58,7 +59,7 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 ### Option A: Use Installer Scripts ✨
 
 1. Navigate to the Cinema 4D plugins directory and within the c4d2hou plugin folder
-2. **Drag the _package_installer** into your terminal or cmd prompt and follow the instructions
+2. **Drag the _package_installer_** into your terminal or cmd prompt and follow the instructions
   ![](assets/img/package_installer.gif)
 3. Select which Houdini version(s) to install for
 4. Done! 🎉
