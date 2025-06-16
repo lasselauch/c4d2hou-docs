@@ -22,11 +22,13 @@ The easiest way to install C4D2HOU is through the
 
 1. **Download** the manager from [aescripts.com](https://aescripts.com/learn/aescripts-aeplugins-manager-app/) (click on the image above.)
 2. **Search** for "c4d2hou" in the manager
-3. **Click Install** and follow the prompts
-4. The manager handles everything automatically! ✨
+3. **Click Install** and follow the prompts, this will install the Cinema4D plugin
+4. From there **Drag the _package_installer** into your terminal or cmd prompt
+  ![](assets/img/package_installer.gif)
+5. Select which Houdini version(s) to install for
+6. Done!🎉 **Start Cinema4D and enjoy!**✨
 
-{: .warning }
-> The aescripts manager also handles automatic updates, ensuring you always have the latest version.
+---
 
 ## Method 2: Manual Installation
 
@@ -55,33 +57,11 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 
 ### Option A: Use Installer Scripts ✨
 
-<details open markdown="block">
-  <summary>
-    Windows
-  </summary>
-
-1. Navigate to the c4d2hou plugin folder
-2. Double-click `_package_installer_win.bat`
+1. Navigate to the Cinema 4D plugins directory and within the c4d2hou plugin folder
+2. **Drag the _package_installer** into your terminal or cmd prompt and follow the instructions
+  ![](assets/img/package_installer.gif)
 3. Select which Houdini version(s) to install for
 4. Done! 🎉
-
-</details>
-
-<details markdown="block">
-  <summary>
-    macOS
-  </summary>
-
-1. Open Terminal and navigate to the c4d2hou plugin folder
-2. Make the script executable:
-   ```bash
-   chmod +x _package_installer_mac.sh
-   ```
-3. Run: `./_package_installer_mac.sh`
-4. Select which Houdini version(s) to install for
-5. Done! 🎉
-
-</details>
 
 ### Option B: Manual JSON Installation
 
@@ -118,7 +98,7 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 1. **Start** Cinema 4D
 2. **Start** Houdini
 3. In Cinema 4D: **Extensions** → **c4d2hou**
-4. **Click** connect button
+4. **Click** [Connect]({{site.baseurl}}/overview)
 5. **Enjoy!** 🚀
 
 ---
@@ -140,6 +120,7 @@ C:/Program Files/MAXON/CINEMA 4D <version>/plugins/c4d2hou  (Windows)
 - Both apps must be running
 - Start Houdini AFTER package installation
 - Check logs: **c4d2hou** → **Info** → **Open Temporary Folder...**
+- Before getting in contact with issues: **c4d2hou** → **Info** → **Create *.debug files...**
 
 ---
 
