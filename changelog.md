@@ -6,7 +6,10 @@ nav_order: 100
 
 # Changelog
 
-### version 0.5.0
+### version 0.5.1
+- [Added] Export state management to prevent state syncs during export operations
+
+### version 0.5.1
 - [Added] Finally fixed the filelock on Windows
 - [Added] Refactored a lot of the code
 - [Added] New Freeze/Hardlock Button
