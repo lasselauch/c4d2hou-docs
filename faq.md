@@ -45,6 +45,18 @@ Yes! The Package Installer lets you install C4D2HOU for multiple Houdini version
 - Check logs: **c4d2hou** → **Info** → **Open Temporary Folder...**
 - Ensure you have the latest version of the plugin
 
+### Scale and Unit Conversion
+**Important:** If your imported assets appear at an incorrect scale, this is typically related to Cinema 4D's project scale settings.
+
+The C4D2HOU plugin is calibrated for Cinema 4D projects using **"Project Scale: 1 Centimeter"**. This setting establishes the conversion factor between Cinema 4D's internal units and real-world measurements, which is why the plugin interface displays a default scale value of 0.01 (converting from centimeters to meters for Houdini).
+
+**Resolution:** If your Cinema 4D project uses a different scale setting:
+1. Check your current project scale: **Edit** → **Project Settings** → **Project Scale**
+2. Adjust the scale parameter in the C4D2HOU interface to compensate for the difference
+3. For example, if your project scale is set to 1 Meter, you may need to adjust the plugin's scale value accordingly
+
+This ensures proper unit conversion between Cinema 4D and Houdini, maintaining accurate asset dimensions throughout your pipeline.
+
 ### General Tips
 - When contacting support: **c4d2hou** → **Info** → **Create *.debug files...** and attach `*.zip`
 - Keep your software updated to the latest versions for better compatibility
