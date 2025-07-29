@@ -77,6 +77,10 @@ Establishes a live connection between Cinema 4D and your active Houdini session.
 
 Controls how exported files are named. **Random** generates unique filenames, **Objects/Document** uses selected object names or document name, **Custom** allows manual filename entry in the text field below.
 
+The plugin uses versioned exports to avoid file conflicts - when exporting to an existing filename, it creates numbered versions (e.g., `myfile.001.abc`, `myfile.002.abc`) instead of overwriting. With **Objects/Document** or **Custom** names, existing Houdini nodes are automatically updated to reference the new version.
+
+> **Note:** When using **Random** filenames, new nodes will be created each time rather than updating existing ones, as random names cannot be tracked between exports.
+
 # Export to:
 
 Defines the destination folder for exported files. **$HIP/c4d2hou** uses Houdini's project directory, **$JOB/c4d2hou** uses the job directory, **Temp/Hardlock** creates temporary files with geometry data baked directly into nodes, **Choose** allows custom folder selection.
