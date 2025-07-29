@@ -77,9 +77,9 @@ Establishes a live connection between Cinema 4D and your active Houdini session.
 
 Controls how exported files are named. **Random** generates unique filenames, **Objects/Document** uses selected object names or document name, **Custom** allows manual filename entry in the text field below.
 
-The plugin uses versioned exports to avoid file conflicts - when exporting to an existing filename, it creates numbered versions (e.g., `myfile.001.abc`, `myfile.002.abc`) instead of overwriting. With **Objects/Document** or **Custom** names, existing Houdini nodes are automatically updated to reference the new version.
+When exporting with **Objects/Document** or **Custom** names and the file already exists, the plugin temporarily clears file references in Houdini to allow overwriting. This ensures a smooth workflow without file lock issues. With **Random** filenames, new files and nodes are created each time.
 
-> **Note:** When using **Random** filenames, new nodes will be created each time rather than updating existing ones, as random names cannot be tracked between exports.
+> **Note:** The plugin intelligently handles existing files by preparing Houdini nodes before export and restoring them afterwards, all in optimized batch operations to minimize performance impact.
 
 # Export to:
 
