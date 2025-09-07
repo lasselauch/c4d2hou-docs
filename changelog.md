@@ -6,6 +6,11 @@ nav_order: 100
 
 # Changelog
 
+### version 0.5.3
+- [Fixed] GPU Guard now only runs on Windows (no longer needed on macOS/Linux)
+- [Fixed] GPU Guard now cleans up the temporary __C4D2HOU_SAFE__ node after operations complete
+- [Improved] GPU Guard performance on non-Windows platforms
+
 ### version 0.5.2
 - [Fixed] VDB Exports
 
