@@ -6,6 +6,14 @@ nav_order: 100
 
 # Changelog
 
+### version 1.0.2
+- [Fixed] Always use update_status() from the status_manager module
+- [Fixed] Check for: hasattr(c4d, 'ABCIMPORT_POINTS_PARTICLEGROUP')
+
+### version 1.0.1
+- [Added] Display of export path in Status
+- [Fixed] Import issues with non exisiting or restricted folders
+
 ### version 1.0.0
 - Initial Release[Back to top](#top){: .btn .float-right}
 
