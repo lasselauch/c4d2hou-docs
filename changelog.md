@@ -6,6 +6,11 @@ nav_order: 100
 
 # Changelog
 
+### version 1.0.3
+- [Fixed] Remove redundant RPyC calls and connection timeout handling and optimize geometry checks in importer
+- [Added] Windows-specific path length warnings with actionable suggestions
+- [Fixed] hou.expandString() calls that caused "stream has been closed" errors
+
 ### version 1.0.2
 - [Fixed] Always use update_status() from the status_manager module
 - [Fixed] Check for: hasattr(c4d, 'ABCIMPORT_POINTS_PARTICLEGROUP')

@@ -71,11 +71,15 @@ Seamlessly bridge your Cinema 4D to Houdini workflow
 
 # Current Session:
 
-Establishes a live connection between Cinema 4D and your active Houdini session. The plugin automatically detects running Houdini instances and maintains a stable bridge for real-time data transfer. Click to toggle connection on/off.
+Establishes a live connection between Cinema 4D and your active Houdini session. The plugin automatically detects running Houdini instances and maintains a stable bridge for real-time data transfer. **Click ![button](assets/img/connect.png) to toggle connection on/off.**
 
 # Filename:
 
-Controls how exported files are named. **Random** generates unique filenames, **Objects/Document** uses selected object names or document name, **Custom** allows manual filename entry in the text field below.
+Controls how exported files are named:
+
+- **Random** – Generates unique filenames to avoid conflicts and create new nodes each time
+- **Objects/Document** – Uses selected object names or document name for organized file naming
+- **Custom** – Allows manual filename entry in the text field below for precise control
 
 When exporting with **Objects/Document** or **Custom** names and the file already exists, the plugin temporarily clears file references in Houdini to allow overwriting. This ensures a smooth workflow without file lock issues. With **Random** filenames, new files and nodes are created each time.
 
@@ -83,27 +87,67 @@ When exporting with **Objects/Document** or **Custom** names and the file alread
 
 # Export to:
 
-Defines the destination folder for exported files. **$HIP/c4d2hou** uses Houdini's project directory, **$JOB/c4d2hou** uses the job directory, **Temp/Hardlock** creates temporary files with geometry data baked directly into nodes, **Choose** allows custom folder selection.
+Defines the destination folder for exported/imported files:
+
+- **$HIP/c4d2hou** – Uses Houdini's project directory for organized project-based exports
+- **$JOB/c4d2hou** – Uses Houdini's job directory, ideal for shared project workflows
+- **$prj/c4d2hou** – Uses Cinema 4D's project directory (document must be saved first)
+- **Choose...** – Select any custom folder for flexible export locations
 
 # Export as:
 
-Sets the file format for geometry export. **\*.abc** exports standard Alembic files, **.abc (Archive)** creates Alembic Archive nodes in Houdini, **\*.fbx** exports FBX files, **\*.fbx (Subnet)** imports as FBX subnets with full hierarchy.
+Sets the file format for geometry export:
+
+- **\*.abc** – Exports standard Alembic files for geometry transfer
+- **.abc (Archive)** – Creates Alembic Archive nodes in Houdini for optimized workflows
+- **\*.fbx** – Exports FBX files with full geometry and material information
+- **\*.fbx (Subnet)** – Imports as FBX subnets in Houdini with complete hierarchy
+
+# Freeze Geometry:
+
+The ![button](assets/img/freeze.png) button enables hardlock mode, which temporarily locks geometry data directly into Houdini nodes rather than using external files. This is particularly useful for:
+
+- Eliminates file path dependencies and potential access issues
+- Speeds up repeated exports without file management overhead
+
+When freeze mode is active:
+- Export destination automatically switches to temporary folder
+- Animation options are disabled (static export only)
+- Geometry data is baked directly into Houdini node parameters
+- File path selection controls become unavailable
+
+The freeze state persists across plugin sessions, making it ideal for extended debugging work. Toggle off to return to normal file-based export workflow.
 
 # Import as (VDB):
 
-Determines how VDB volume files are imported into Cinema 4D. **Volume Loader** creates standard Cinema 4D Volume objects, **RS Volume** creates Redshift Volume objects for rendering with Redshift.
+Determines how VDB volume files are imported into Cinema 4D:
+
+- **Volume Loader** – Creates standard Cinema 4D Volume objects for general volume workflows
+- **RS Volume** – Creates Redshift Volume objects optimized for rendering with Redshift
 
 # Import as (Particles):
 
-Controls particle system import behavior. **As Particle Geometry** imports as Cinema 4D particle geometry, **As Polygon Object** converts particles to polygon meshes, **As Particle Group** creates particle group objects.
+Controls particle system import behavior:
+
+- **As Particle Geometry** – Imports as Cinema 4D particle geometry with full particle system support
+- **As Polygon Object** – Converts particles to polygon meshes for standard geometry workflows
+- **As Particle Group** – Creates particle group objects for organized scene management
 
 # From/To:
 
-Sets the frame range for animated exports. **Static** exports only the current frame, **Document Range** uses the full timeline range, **Preview Range** exports only the preview/playback range defined in Cinema 4D.
+Sets the frame range for animated exports:
+
+- **Static** – Exports only the current frame for single-frame geometry transfer
+- **Document Range** – Uses the full timeline range as defined in Cinema 4D's timeline
+- **Preview Range** – Exports only the preview/playback range for focused animation segments
 
 # Scale:
 
-Adjusts the scale factor between Cinema 4D and Houdini coordinate systems. Default is 0.01, which converts Cinema 4D's centimeter units to Houdini's meter units. Increase for larger objects, decrease for smaller precision work.
+Adjusts the scale factor between Cinema 4D and Houdini coordinate systems:
+
+- **Default: 0.01** – Converts Cinema 4D's centimeter units to Houdini's meter units
+- **Increase value** – For larger objects that need more precision in Houdini
+- **Decrease value** – For smaller objects requiring finer detail work
 
 [Back to top](#top){: .btn .float-right}
 
