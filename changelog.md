@@ -6,6 +6,9 @@ nav_order: 100
 
 # Changelog
 
+### version 1.0.4
+- [Added] Custom Folders in Package Installer
+
 ### version 1.0.3
 - [Fixed] Remove redundant RPyC calls and connection timeout handling and optimize geometry checks in importer
 - [Added] Windows-specific path length warnings with actionable suggestions
