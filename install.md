@@ -54,7 +54,7 @@ C4D2HOU detects if Houdini package installation is needed
 Start Houdini and you're ready to connect.
 The entire setup is now complete.
 
-### Note on Add Custom Folder
+## ⚠️ How to add Custom Folder
 When using "Add Custom Folder", specify Houdini's user preferences directory, NOT the program installation directory:
 
 - **Windows:** `C:/Users/<username>/Documents/houdini<version>`
