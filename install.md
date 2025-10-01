@@ -54,6 +54,14 @@ C4D2HOU detects if Houdini package installation is needed
 Start Houdini and you're ready to connect.
 The entire setup is now complete.
 
+### Note on Add Custom Folder
+When using "Add Custom Folder", specify Houdini's user preferences directory, NOT the program installation directory:
+
+- **Windows:** `C:/Users/<username>/Documents/houdini<version>`
+- **macOS:** `~/Library/Preferences/houdini/<version>`
+
+*If unsure about your directory location, check the `$HOUDINI_USER_PREF_DIR` variable from within Houdini's Python shell.*
+
 ## Understanding the Package Installer
 The Package Installer shows all detected Houdini installations with status indicators:
 
